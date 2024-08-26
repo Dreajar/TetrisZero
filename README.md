@@ -32,12 +32,12 @@ Async Programming
 * Initial Confusion: Asynchronous programming in Rust was initially confusing due to its different paradigms and concepts such as futures, tasks, and executors.
 * Community Resources: Overcoming this hurdle was greatly facilitated by the wealth of community resources available, including blogs, discussions, videos, and Reddit posts. These resources provided practical insights and solutions to specific issues I encountered.
 * Learning Curve: Through persistence and learning from the community, I gained a deeper understanding of async programming, which is now a fundamental part of my skill set.
-* 
+
 Tokio
 * Differences from Standard Library: Using tokio::net::TcpStream for network communication was challenging at first because of its differences from the standard library's std::net::TcpStream. The async nature of tokio's networking required a different approach to handling connections and data transfer.
 * Adapting to Async I/O: I had to adapt my thinking and coding style to work with async I/O operations, which involved understanding concepts like async read and write operations, handling async streams, and managing tasks and their lifecycles.
 * Tokio's Learning Resources: The tokio documentation and community examples were invaluable in helping me grasp the necessary concepts and implement a robust server capable of handling multiple players concurrently.
-* 
+
 Machine Learning
 * ML Ecosystem: Rust's machine learning ecosystem is not as mature as that of Python or C++. This made it difficult to implement advanced AI for the single-player mode against bots.
 * Foreign Function Interface (FFI): Interfacing Rust with other languages, particularly for machine learning models, was a complex task. The FFI with Python, while possible, was not straightforward and required careful management to avoid performance overheads. Similarly, interfacing with C or C++ for leveraging existing ML libraries resulted in large file sizes, which are often binary executables or libraries that need to be dynamically linked.
