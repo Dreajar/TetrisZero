@@ -46,7 +46,8 @@ Learning and Adaptation
 * Deepened Understanding: This process deepened my understanding of Rust's core concepts and improved my ability to leverage them effectively in my code, even in other languages.
 
 Machine Learning
-This project is called TetrisZero because there was supposed to be a singleplayer mode where you'd get to play against an AI. However,
+
+This project is called TetrisZero because there was supposed to be a singleplayer mode where you'd get to play against an AI. However, I just could not get it to work. This is probably a skill issue, but I had the following issues:
 * ML Ecosystem: Rust's machine learning ecosystem is not as mature as that of Python or C++. This made it difficult to implement advanced AI for the single-player mode against bots.
 * Foreign Function Interface (FFI): Interfacing Rust with other languages, particularly for machine learning models, was a complex task. The FFI with Python, while possible, was not straightforward and required careful management to avoid performance overheads. Similarly, interfacing with C or C++ for leveraging existing ML libraries resulted in large file sizes, which are often binary executables or libraries that need to be dynamically linked.
 
