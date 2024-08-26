@@ -1,0 +1,10 @@
+[package]
+name = "tetris-2"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.39.3", features = ["full", "macros", "io-util", "net"] }
+anyhow = "1.0.86"
+tokio-tungstenite = "0.23.1"
+rand = "0.8.5"
